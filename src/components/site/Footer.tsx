@@ -37,78 +37,82 @@ export function Footer() {
           </Link>
         </div>
 
-        <div className="grid gap-8 pt-10 sm:gap-10 sm:grid-cols-2 lg:grid-cols-[1.3fr_1fr_1fr]">
+        <div className="grid gap-10 pt-10 lg:grid-cols-[2fr_auto] lg:gap-20">
+          {/* Brand column */}
           <div>
             <div className="text-2xl font-bold tracking-tight text-white">
               PageCraft<span className="text-[#F97316]">.</span>
             </div>
-            <p className="mt-3 text-sm leading-relaxed text-white/55">
+            <p className="mt-3 text-base leading-relaxed text-white/55">
               Beautifully crafted, mobile-first websites for service businesses. Built by humans
               in Chapel Hill.
             </p>
-            <div className="mt-4 inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 p-2 pr-3 text-xs text-white/70 backdrop-blur">
+            <div className="mt-4 inline-flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 p-2 pr-3 text-sm text-white/70 backdrop-blur">
               <MapPin className="h-3.5 w-3.5 text-[#F97316]" />
               Chapel Hill, NC
             </div>
           </div>
 
-          <div>
-            <div className="text-[11px] font-bold uppercase tracking-[0.22em] text-white/40">
-              Explore
+          {/* Explore + Contact grouped side by side */}
+          <div className="flex gap-16 sm:gap-20">
+            <div>
+              <div className="text-[12px] font-bold uppercase tracking-[0.22em] text-white/40">
+                Explore
+              </div>
+              <ul className="mt-4 space-y-3">
+                {[
+                  { to: "/", label: "Home" },
+                  { to: "/pricing", label: "Pricing" },
+                  { to: "/faq", label: "FAQ" },
+                  { to: "/demo-form", label: "Get Your Demo" },
+                ].map((l) => (
+                  <li key={l.to}>
+                    <Link
+                      to={l.to}
+                      className="group inline-flex items-center gap-1.5 text-base text-white/75 transition-colors hover:text-[#F97316]"
+                    >
+                      {l.label}
+                      <ArrowUpRight className="h-3 w-3 opacity-0 transition-all group-hover:opacity-100 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
-            <ul className="mt-4 space-y-2.5">
-              {[
-                { to: "/", label: "Home" },
-                { to: "/pricing", label: "Pricing" },
-                { to: "/faq", label: "FAQ" },
-                { to: "/demo-form", label: "Get Your Demo" },
-              ].map((l) => (
-                <li key={l.to}>
-                  <Link
-                    to={l.to}
-                    className="group inline-flex items-center gap-1.5 text-sm text-white/75 transition-colors hover:text-[#F97316]"
-                  >
-                    {l.label}
-                    <ArrowUpRight className="h-3 w-3 opacity-0 transition-all group-hover:opacity-100 group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
 
-          <div>
-            <div className="text-[11px] font-bold uppercase tracking-[0.22em] text-white/40">
-              Contact
+            <div>
+              <div className="text-[12px] font-bold uppercase tracking-[0.22em] text-white/40">
+                Contact
+              </div>
+              <ul className="mt-4 space-y-3">
+                <li>
+                  <a
+                    href="mailto:itspagecraft@gmail.com"
+                    className="inline-flex items-center gap-2.5 text-base text-white/75 transition-colors hover:text-[#F97316]"
+                  >
+                    <Mail className="h-4 w-4 text-[#F97316]" />
+                    itspagecraft@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="tel:9199034170"
+                    className="inline-flex items-center gap-2.5 text-base text-white/75 transition-colors hover:text-[#F97316]"
+                  >
+                    <Phone className="h-4 w-4 text-[#F97316]" />
+                    (919) 903-4170
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="tel:9842919785"
+                    className="inline-flex items-center gap-2.5 text-base text-white/75 transition-colors hover:text-[#F97316]"
+                  >
+                    <Phone className="h-4 w-4 text-[#F97316]" />
+                    (984) 291-9785
+                  </a>
+                </li>
+              </ul>
             </div>
-            <ul className="mt-4 space-y-2.5">
-              <li>
-                <a
-                  href="mailto:itspagecraft@gmail.com"
-                  className="inline-flex items-center gap-2.5 text-sm text-white/75 transition-colors hover:text-[#F97316]"
-                >
-                  <Mail className="h-3.5 w-3.5 text-[#F97316]" />
-                  itspagecraft@gmail.com
-                </a>
-              </li>
-              <li>
-                <a
-                  href="tel:9199034170"
-                  className="inline-flex items-center gap-2.5 text-sm text-white/75 transition-colors hover:text-[#F97316]"
-                >
-                  <Phone className="h-3.5 w-3.5 text-[#F97316]" />
-                  (919) 903-4170
-                </a>
-              </li>
-              <li>
-                <a
-                  href="tel:9842919785"
-                  className="inline-flex items-center gap-2.5 text-sm text-white/75 transition-colors hover:text-[#F97316]"
-                >
-                  <Phone className="h-3.5 w-3.5 text-[#F97316]" />
-                  (984) 291-9785
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
 
