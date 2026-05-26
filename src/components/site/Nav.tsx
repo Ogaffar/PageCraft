@@ -35,7 +35,7 @@ export function Nav() {
                 <Link
                   key={l.label}
                   to={l.href}
-                  className="text-sm font-medium text-[#1E1B4B]/80 transition-colors hover:text-[#F97316]"
+                  className="text-base font-medium text-[#1E1B4B]/80 transition-colors hover:text-[#F97316]"
                 >
                   {l.label}
                 </Link>
@@ -43,7 +43,7 @@ export function Nav() {
                 <a
                   key={l.label}
                   href={l.href}
-                  className="text-sm font-medium text-[#1E1B4B]/80 transition-colors hover:text-[#F97316]"
+                  className="text-base font-medium text-[#1E1B4B]/80 transition-colors hover:text-[#F97316]"
                 >
                   {l.label}
                 </a>
@@ -59,7 +59,7 @@ export function Nav() {
           </a>
           <Link
             to="/demo-form"
-            className="hidden h-11 items-center justify-center rounded-full bg-[#F97316] px-5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-[#FB8533] hover:scale-[1.02] sm:inline-flex"
+            className="hidden h-11 items-center justify-center rounded-full bg-[#F97316] px-6 text-base font-semibold text-white shadow-sm transition-all hover:bg-[#FB8533] hover:scale-[1.02] sm:inline-flex"
           >
             Get Your Demo
           </Link>

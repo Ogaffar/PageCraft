@@ -10,7 +10,7 @@ export function Wordmark({
   light?: boolean;
 }) {
   const sizeCls =
-    size === "lg" ? "text-3xl" : size === "sm" ? "text-lg" : "text-xl";
+    size === "lg" ? "text-3xl" : size === "sm" ? "text-lg" : "text-2xl";
   const color = light ? "text-[#FAFAF9]" : "text-[#1E1B4B]";
   return (
     <Link
