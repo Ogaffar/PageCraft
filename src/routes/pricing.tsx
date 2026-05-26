@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
 import { Check } from "lucide-react";
@@ -47,7 +48,7 @@ const plan24 = [
   "Priority access to add-ons (SEO, Google Ads) at preferred rate",
 ];
 
-function CheckRow({ children }: { children: React.ReactNode }) {
+function CheckRow({ children }: { children: ReactNode }) {
   return (
     <li className="flex items-start gap-3">
       <span className="mt-0.5 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-[#10B981]/10">
