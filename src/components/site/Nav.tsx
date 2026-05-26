@@ -25,7 +25,7 @@ export function Nav() {
         scrolled ? "shadow-[0_1px_0_rgba(30,27,75,0.06),0_8px_24px_-12px_rgba(30,27,75,0.12)]" : ""
       }`}
     >
-      <div className="mx-auto flex h-16 max-w-[1440px] items-center justify-between px-6 lg:px-14">
+      <div className="mx-auto flex h-20 max-w-[1440px] items-center justify-between px-6 lg:px-14">
         <Wordmark />
 
         <div className="flex items-center gap-2 lg:gap-6">
@@ -35,7 +35,7 @@ export function Nav() {
                 <Link
                   key={l.label}
                   to={l.href}
-                  className="text-base font-medium text-[#1E1B4B]/80 transition-colors hover:text-[#F97316]"
+                  className="text-[17px] font-medium text-[#1E1B4B]/80 transition-colors hover:text-[#F97316]"
                 >
                   {l.label}
                 </Link>
@@ -43,7 +43,7 @@ export function Nav() {
                 <a
                   key={l.label}
                   href={l.href}
-                  className="text-base font-medium text-[#1E1B4B]/80 transition-colors hover:text-[#F97316]"
+                  className="text-[17px] font-medium text-[#1E1B4B]/80 transition-colors hover:text-[#F97316]"
                 >
                   {l.label}
                 </a>
@@ -59,7 +59,7 @@ export function Nav() {
           </a>
           <Link
             to="/demo-form"
-            className="hidden h-11 items-center justify-center rounded-full bg-[#F97316] px-6 text-base font-semibold text-white shadow-sm transition-all hover:bg-[#FB8533] hover:scale-[1.02] sm:inline-flex"
+            className="hidden h-12 items-center justify-center rounded-full bg-[#F97316] px-7 text-[17px] font-semibold text-white shadow-sm transition-all hover:bg-[#FB8533] hover:scale-[1.02] sm:inline-flex"
           >
             Get Your Demo
           </Link>
