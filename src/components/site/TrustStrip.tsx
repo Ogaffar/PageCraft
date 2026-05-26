@@ -42,7 +42,7 @@ const cards: Card[] = [
 export function TrustStrip() {
   return (
     <section className="relative -mt-8 rounded-t-[2rem] bg-white pt-20 pb-20 sm:-mt-10 sm:rounded-t-[2.5rem] sm:pt-24 sm:pb-28 lg:-mt-14 lg:rounded-t-[3.5rem] lg:pt-32 lg:pb-36 shadow-[0_-30px_60px_-40px_rgba(30,27,75,0.35)]">
-      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10">
+      <div className="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-14">
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-[12px] font-bold uppercase tracking-[0.22em] text-[#F97316]">
             Who we build for
@@ -64,7 +64,7 @@ export function TrustStrip() {
           </p>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:mt-20 sm:grid-cols-2 sm:gap-7 lg:mt-24 lg:gap-8 xl:grid-cols-4">
+        <div className="mt-12 grid grid-cols-1 gap-6 sm:mt-20 sm:grid-cols-2 sm:gap-7 lg:mt-24 lg:grid-cols-4 lg:gap-8">
           {cards.map((c) => (
             <article
               key={c.name}

@@ -22,7 +22,7 @@ const steps = [
 export function HowItWorks() {
   return (
     <section id="how-it-works" className="py-16 lg:py-28">
-      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10">
+      <div className="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-14">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-[30px] font-bold leading-tight text-[#1E1B4B] sm:text-[38px] lg:text-[48px]">
             How PageCraft works.

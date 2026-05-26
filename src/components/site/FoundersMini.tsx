@@ -4,7 +4,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 export function FoundersMini() {
   return (
     <section className="bg-[#F5F5F4] py-14 sm:py-16 lg:py-28">
-      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10">
+      <div className="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-14">
         <div className="relative overflow-hidden rounded-3xl border border-[#1E1B4B]/8 bg-white p-7 shadow-[0_30px_60px_-30px_rgba(30,27,75,0.14)] sm:p-8 lg:rounded-[2rem] lg:p-16">
           {/* Subtle map silhouette */}
           <div

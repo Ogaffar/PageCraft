@@ -25,7 +25,7 @@ export function Nav() {
         scrolled ? "shadow-[0_1px_0_rgba(30,27,75,0.06),0_8px_24px_-12px_rgba(30,27,75,0.12)]" : ""
       }`}
     >
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 lg:px-8">
+      <div className="mx-auto flex h-16 max-w-[1440px] items-center justify-between px-6 lg:px-14">
         <Wordmark />
 
         <div className="flex items-center gap-2 lg:gap-6">
@@ -76,7 +76,7 @@ export function Nav() {
 
       {open && (
         <div className="border-t border-[#1E1B4B]/10 bg-[#FAFAF9] lg:hidden">
-          <div className="mx-auto flex max-w-6xl flex-col gap-1 px-5 py-4">
+          <div className="mx-auto flex max-w-[1440px] flex-col gap-1 px-6 py-4">
             {links.map((l) =>
               l.to ? (
                 <Link
