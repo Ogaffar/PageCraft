@@ -38,7 +38,7 @@ export function FoundersMini() {
               <p className="text-[17px] font-medium leading-snug text-[#475569] sm:text-lg lg:text-2xl">
                 &ldquo;The two humans you&apos;ll actually talk to.&rdquo;
               </p>
-              <p className="max-w-xl text-[16px] leading-relaxed text-[#475569] sm:text-base lg:text-[18px]">
+              <p className="text-[16px] leading-relaxed text-[#475569] sm:text-base lg:text-[18px]">
                 No agency runaround. No ticket queues. Just two operators who pick up the
                 phone, sweat your details, and ship your site in seven days.
               </p>
