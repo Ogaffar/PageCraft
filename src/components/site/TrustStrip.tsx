@@ -58,7 +58,7 @@ export function TrustStrip() {
             </span>{" "}
             for their customers.
           </h2>
-          <p className="mx-auto mt-5 max-w-xl text-[17px] leading-relaxed text-[#475569] sm:text-lg lg:mt-6 lg:max-w-2xl lg:text-[20px]">
+          <p className="mt-5 text-[17px] leading-relaxed text-[#475569] sm:text-lg lg:mt-6 lg:text-[20px]">
             Purpose-built layouts, copy, and booking flows tuned to the way real customers
             actually pick where to eat, stay, and book.
           </p>
