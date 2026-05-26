@@ -22,7 +22,7 @@ export function Footer() {
         }}
       />
 
-      <div className="relative mx-auto max-w-6xl px-6 py-14 sm:px-5 sm:py-16 lg:px-8 lg:py-24">
+      <div className="relative mx-auto max-w-[1440px] px-6 py-14 sm:px-8 sm:py-16 lg:px-14 lg:py-24">
         {/* CTA banner */}
         <div className="flex flex-col items-start justify-between gap-6 border-b border-white/10 pb-10 lg:flex-row lg:items-center lg:pb-14">
           <h2 className="text-[28px] font-bold leading-[1.05] tracking-tight text-white sm:text-3xl lg:text-[56px]">
@@ -42,7 +42,7 @@ export function Footer() {
             <div className="text-2xl font-bold tracking-tight text-white">
               PageCraft<span className="text-[#F97316]">.</span>
             </div>
-            <p className="mt-3 max-w-xs text-sm leading-relaxed text-white/55">
+            <p className="mt-3 text-sm leading-relaxed text-white/55">
               Beautifully crafted, mobile-first websites for service businesses. Built by humans
               in Chapel Hill.
             </p>
