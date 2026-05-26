@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 
 export function FinalCTA() {
   return (
-    <section className="bg-[#1E1B4B] py-20 lg:py-28">
+    <section className="bg-[#1E1B4B] py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-3xl px-5 text-center lg:px-8">
         <h2 className="text-[32px] font-bold leading-tight text-[#FAFAF9] sm:text-[40px] lg:text-[52px]">
           Ready to get your site live in 7 days?

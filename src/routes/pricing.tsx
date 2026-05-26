@@ -53,7 +53,7 @@ function CheckRow({ children }: { children: React.ReactNode }) {
       <span className="mt-0.5 inline-flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-[#10B981]/10">
         <Check className="h-3.5 w-3.5 text-[#10B981]" strokeWidth={3} />
       </span>
-      <span className="text-sm leading-relaxed text-[#1E1B4B]">{children}</span>
+      <span className="text-base leading-relaxed text-[#1E1B4B]">{children}</span>
     </li>
   );
 }
@@ -61,7 +61,7 @@ function CheckRow({ children }: { children: React.ReactNode }) {
 function PricingPage() {
   return (
     <SiteLayout>
-      <section className="mx-auto max-w-6xl px-5 pb-20 pt-16 lg:px-8 lg:pt-24">
+      <section className="mx-auto max-w-[1440px] px-6 pb-20 pt-16 sm:px-8 lg:px-14 lg:pt-24">
         <div className="mx-auto max-w-3xl text-center">
           <h1 className="text-[36px] font-bold leading-tight text-[#1E1B4B] sm:text-5xl lg:text-[56px]">
             Simple pricing. No surprises.
@@ -71,7 +71,7 @@ function PricingPage() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-6 lg:grid-cols-2 lg:gap-8">
+        <div className="mx-auto mt-12 grid max-w-5xl gap-6 lg:grid-cols-2 lg:gap-8">
           {/* Pay As You Go */}
           <div className="flex h-full flex-col rounded-2xl border border-[#1E1B4B]/10 bg-white p-7 shadow-sm sm:p-9">
             <div className="text-xs font-semibold uppercase tracking-[0.18em] text-[#475569]">
@@ -159,7 +159,7 @@ function PricingPage() {
           </div>
         </div>
 
-        <p className="mx-auto mt-12 max-w-2xl text-center text-sm text-[#475569]">
+        <p className="mx-auto mt-10 max-w-2xl text-center text-sm text-[#475569]">
           All plans include hosting, regular updates, and platform care. No surprise fees.
           Standard contract terms apply to the 24-month plan.
         </p>

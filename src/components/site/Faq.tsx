@@ -40,13 +40,13 @@ export function Faq() {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
-    <section id="faq" className="bg-[#F5F5F4] py-16 lg:py-28">
+    <section id="faq" className="bg-[#F5F5F4] py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-[720px] px-5 lg:px-8">
         <h2 className="text-center text-[28px] font-bold leading-tight text-[#1E1B4B] sm:text-[36px] lg:text-[44px]">
           Questions, answered.
         </h2>
 
-        <div className="mt-12 space-y-3">
+        <div className="mt-10 space-y-3">
           {faqs.map((item, i) => {
             const isOpen = open === i;
             return (

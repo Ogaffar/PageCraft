@@ -103,7 +103,7 @@ function DemoFormPage() {
 
   return (
     <SiteLayout>
-      <section className="mx-auto max-w-[640px] px-5 pb-20 pt-16 lg:pt-20">
+      <section className="mx-auto max-w-[640px] px-6 pb-20 pt-16 sm:px-8 lg:pt-20">
         <div className="text-center">
           <h1 className="text-[36px] font-bold leading-tight text-[#1E1B4B] sm:text-5xl">
             Tell us about your business.
