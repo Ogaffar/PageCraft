@@ -68,14 +68,14 @@ export function TrustStrip() {
           {cards.map((c) => (
             <article
               key={c.name}
-              className="group relative flex cursor-default flex-col overflow-hidden rounded-3xl border border-[#1E1B4B]/8 bg-white p-10 shadow-[0_4px_28px_-8px_rgba(30,27,75,0.12)] transition-all duration-500 hover:-translate-y-2 hover:border-[#F97316]/30 hover:shadow-[0_30px_70px_-20px_rgba(249,115,22,0.28)] lg:p-12"
+              className="group relative flex cursor-default flex-col overflow-hidden rounded-3xl border border-[#1E1B4B]/8 bg-white p-8 shadow-[0_4px_28px_-8px_rgba(30,27,75,0.12)] transition-all duration-500 hover:-translate-y-2 hover:border-[#F97316]/30 hover:shadow-[0_30px_70px_-20px_rgba(249,115,22,0.28)] lg:p-9"
             >
               {/* Top accent bar */}
               <div className="absolute top-0 left-0 right-0 h-1.5 bg-[#1E1B4B] transition-colors duration-500 group-hover:bg-[#F97316]" />
 
               <div className="flex items-center justify-between pt-2">
-                <div className="inline-flex h-16 w-16 items-center justify-center rounded-2xl bg-[#1E1B4B] text-white shadow-[0_8px_20px_-4px_rgba(30,27,75,0.40)] transition-all duration-500 group-hover:scale-110 group-hover:bg-[#F97316] group-hover:shadow-[0_8px_20px_-4px_rgba(249,115,22,0.45)]">
-                  <c.icon className="h-7 w-7" strokeWidth={1.75} />
+                <div className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-[#1E1B4B] text-white shadow-[0_8px_20px_-4px_rgba(30,27,75,0.40)] transition-all duration-500 group-hover:scale-110 group-hover:bg-[#F97316] group-hover:shadow-[0_8px_20px_-4px_rgba(249,115,22,0.45)]">
+                  <c.icon className="h-6 w-6" strokeWidth={1.75} />
                 </div>
                 <ArrowUpRight
                   className="h-5 w-5 text-[#1E1B4B]/25 transition-all duration-500 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[#F97316]"
@@ -83,14 +83,14 @@ export function TrustStrip() {
                 />
               </div>
 
-              <h3 className="mt-8 text-[24px] font-bold tracking-tight text-[#1E1B4B] lg:text-[26px]">
+              <h3 className="mt-7 text-[22px] font-bold tracking-tight text-[#1E1B4B] lg:text-[24px]">
                 {c.name}
               </h3>
-              <p className="mt-4 flex-grow text-[17px] leading-relaxed text-[#475569] lg:text-[18px]">
+              <p className="mt-3 flex-grow text-[16px] leading-relaxed text-[#475569] lg:text-[17px]">
                 {c.prop}
               </p>
 
-              <div className="mt-10 flex items-center justify-between border-t border-[#1E1B4B]/8 pt-6">
+              <div className="mt-8 flex items-center justify-between border-t border-[#1E1B4B]/8 pt-5">
                 <span className="text-[11px] font-bold uppercase tracking-[0.18em] text-[#94a3b8]">
                   {c.metricLabel}
                 </span>
