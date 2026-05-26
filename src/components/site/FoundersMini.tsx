@@ -4,7 +4,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 export function FoundersMini() {
   return (
     <section className="bg-[#F5F5F4] py-14 sm:py-16 lg:py-28">
-      <div className="mx-auto max-w-6xl px-5 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 sm:px-8 lg:px-10">
         <div className="relative overflow-hidden rounded-3xl border border-[#1E1B4B]/8 bg-white p-7 shadow-[0_30px_60px_-30px_rgba(30,27,75,0.14)] sm:p-8 lg:rounded-[2rem] lg:p-16">
           {/* Subtle map silhouette */}
           <div
@@ -32,13 +32,13 @@ export function FoundersMini() {
                 <MapPin className="h-3 w-3 text-[#F97316] lg:h-3.5 lg:w-3.5" />
                 Chapel Hill, NC
               </div>
-              <h2 className="text-[28px] font-bold leading-tight tracking-tight text-[#1E1B4B] sm:text-3xl lg:text-[44px]">
+              <h2 className="text-[30px] font-bold leading-tight tracking-tight text-[#1E1B4B] sm:text-3xl lg:text-[52px]">
                 Gaffar &amp; Yejide.
               </h2>
               <p className="text-[17px] font-medium leading-snug text-[#475569] sm:text-lg lg:text-2xl">
                 &ldquo;The two humans you&apos;ll actually talk to.&rdquo;
               </p>
-              <p className="max-w-xl text-[15px] leading-relaxed text-[#475569] sm:text-sm lg:text-[16px]">
+              <p className="max-w-xl text-[16px] leading-relaxed text-[#475569] sm:text-base lg:text-[18px]">
                 No agency runaround. No ticket queues. Just two operators who pick up the
                 phone, sweat your details, and ship your site in seven days.
               </p>
