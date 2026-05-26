@@ -43,7 +43,7 @@ export function TrustStrip() {
   return (
     <section className="relative -mt-8 rounded-t-[2rem] bg-white pt-20 pb-20 sm:-mt-10 sm:rounded-t-[2.5rem] sm:pt-24 sm:pb-28 lg:-mt-14 lg:rounded-t-[3.5rem] lg:pt-32 lg:pb-36 shadow-[0_-30px_60px_-40px_rgba(30,27,75,0.35)]">
       <div className="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-14">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="text-center">
           <span className="text-[12px] font-bold uppercase tracking-[0.22em] text-[#F97316]">
             Who we build for
           </span>
