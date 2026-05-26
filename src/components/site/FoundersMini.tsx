@@ -3,7 +3,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 
 export function FoundersMini() {
   return (
-    <section className="bg-[#F5F5F4] py-14 sm:py-16 lg:py-28">
+    <section className="bg-[#F5F5F4] py-14 sm:py-16 lg:py-24">
       <div className="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-14">
         <div className="relative overflow-hidden rounded-3xl border border-[#1E1B4B]/8 bg-white p-7 shadow-[0_30px_60px_-30px_rgba(30,27,75,0.14)] sm:p-8 lg:rounded-[2rem] lg:p-16">
           {/* Subtle map silhouette */}
@@ -16,7 +16,7 @@ export function FoundersMini() {
             </svg>
           </div>
 
-          <div className="relative grid items-center gap-8 sm:gap-10 lg:grid-cols-[auto_1fr] lg:gap-20">
+          <div className="relative grid items-center gap-8 sm:gap-10 lg:grid-cols-[auto_1fr] lg:gap-12">
             {/* Avatar stack */}
             <div className="flex shrink-0 -space-x-6 lg:-space-x-7">
               <div className="flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-[#1E1B4B] text-2xl font-bold text-white shadow-[0_10px_20px_-8px_rgba(30,27,75,0.45)] lg:h-32 lg:w-32 lg:text-3xl">

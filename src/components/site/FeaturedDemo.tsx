@@ -3,9 +3,9 @@ import { RestaurantMockup } from "./RestaurantMockup";
 
 export function FeaturedDemo() {
   return (
-    <section className="py-16 lg:py-28">
+    <section className="py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-14">
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="text-center">
           <h2 className="text-[30px] font-bold leading-tight text-[#1E1B4B] sm:text-[38px] lg:text-[48px]">
             Real sites. Real businesses.
           </h2>
@@ -14,8 +14,8 @@ export function FeaturedDemo() {
           </p>
         </div>
 
-        <div className="mt-12 flex flex-col items-center gap-10 lg:mt-16">
-          <div className="w-full lg:w-auto lg:pr-8">
+        <div className="mt-10 flex flex-col items-center gap-10 lg:mt-12">
+          <div className="w-full lg:w-auto">
             <RestaurantMockup />
           </div>
 

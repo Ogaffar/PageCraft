@@ -21,9 +21,9 @@ const steps = [
 
 export function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-16 lg:py-28">
+    <section id="how-it-works" className="py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-[1440px] px-6 sm:px-8 lg:px-14">
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="text-center">
           <h2 className="text-[30px] font-bold leading-tight text-[#1E1B4B] sm:text-[38px] lg:text-[48px]">
             How PageCraft works.
           </h2>
@@ -32,7 +32,7 @@ export function HowItWorks() {
           </p>
         </div>
 
-        <div className="mt-14 grid gap-8 lg:grid-cols-3 lg:gap-10">
+        <div className="mt-10 grid gap-8 lg:grid-cols-3 lg:gap-10">
           {steps.map((s) => (
             <div key={s.n} className="relative">
               <div className="text-6xl font-extrabold leading-none text-[#F97316]">{s.n}</div>

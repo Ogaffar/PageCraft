@@ -22,10 +22,10 @@ export function Footer() {
         }}
       />
 
-      <div className="relative mx-auto max-w-[1440px] px-6 py-14 sm:px-8 sm:py-16 lg:px-14 lg:py-24">
+      <div className="relative mx-auto max-w-[1440px] px-6 py-14 sm:px-8 sm:py-16 lg:px-14 lg:py-20">
         {/* CTA banner */}
-        <div className="flex flex-col items-start justify-between gap-6 border-b border-white/10 pb-10 lg:flex-row lg:items-center lg:pb-14">
-          <h2 className="text-[28px] font-bold leading-[1.05] tracking-tight text-white sm:text-3xl lg:text-[56px]">
+        <div className="flex flex-col items-start justify-between gap-6 border-b border-white/10 pb-8 lg:flex-row lg:items-center lg:pb-10">
+          <h2 className="text-[28px] font-bold leading-[1.05] tracking-tight text-white sm:text-3xl lg:text-[44px]">
             Ready when you are.
           </h2>
           <Link
@@ -37,7 +37,7 @@ export function Footer() {
           </Link>
         </div>
 
-        <div className="grid gap-10 pt-10 lg:grid-cols-[2fr_auto] lg:gap-20">
+        <div className="grid gap-10 pt-8 lg:grid-cols-[2fr_auto] lg:gap-20">
           {/* Brand column */}
           <div>
             <div className="text-2xl font-bold tracking-tight text-white">

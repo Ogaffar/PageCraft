@@ -22,7 +22,7 @@ export function Hero() {
         }}
       />
 
-      <div className="relative mx-auto grid max-w-[1440px] items-center gap-12 px-6 pb-24 pt-14 sm:gap-14 sm:px-8 sm:pb-28 sm:pt-16 lg:grid-cols-[1fr_1.05fr] lg:gap-10 lg:px-14 lg:pb-40 lg:pt-28">
+      <div className="relative mx-auto grid max-w-[1440px] items-center gap-12 px-6 pb-20 pt-12 sm:gap-14 sm:px-8 sm:pb-24 sm:pt-14 lg:grid-cols-[1fr_1.05fr] lg:gap-10 lg:px-14 lg:pb-32 lg:pt-20">
         <div className="pc-fade-in">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3.5 py-1.5 text-[13px] font-medium text-white/80 backdrop-blur">
             <span className="relative flex h-2 w-2">
